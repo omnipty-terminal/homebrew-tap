@@ -1,6 +1,6 @@
 cask "oxide-terminal" do
-  version "0.8.0"
-  sha256 "66555b3da85d33f84bd2cb128575720e05483640e8e8e4ad70449078907b40fa"
+  version "0.8.1"
+  sha256 "1e5a2062ff6732632dd736858f5f9a5e635e1bbc0919ed9c8e165907fc0c4bf8"
 
   url "https://downloads.oxideterminal.com/oxide/#{version}/Oxide-#{version}.dmg"
   name "Oxide"
