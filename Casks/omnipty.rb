@@ -1,6 +1,6 @@
 cask "omnipty" do
   version "0.9.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "238791d1baeb6758f7cb415d46de2a7bc88a67e76bd7128fbbcd4e8c8eb8c185"
 
   url "https://downloads.omnipty.com/omnipty/#{version}/OmniPTY-#{version}.dmg"
   name "OmniPTY"
