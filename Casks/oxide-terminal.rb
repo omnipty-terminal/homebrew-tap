@@ -7,6 +7,7 @@ cask "oxide-terminal" do
   desc "GPU-rendered terminal emulator written in Rust — now called OmniPTY"
   homepage "https://omnipty.com/"
 
+  auto_updates true
   depends_on macos: :monterey
 
   app "OmniPTY.app"
@@ -14,7 +15,7 @@ cask "oxide-terminal" do
   caveats <<~EOS
     Oxide is now OmniPTY. This cask installs OmniPTY 0.9.0 one last time.
     To keep getting updates through Homebrew, switch casks:
-      brew uninstall --cask oxide-terminal && brew install --cask omnipty-terminal/tap/omnipty
+      brew uninstall --cask --force oxide-terminal && brew install --cask --adopt omnipty-terminal/tap/omnipty
     (The app also updates itself, so this is only for brew bookkeeping.)
   EOS
 
